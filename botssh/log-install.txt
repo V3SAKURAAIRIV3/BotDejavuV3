@@ -1,0 +1,37 @@
+>>> Service & Port SSH <<<
+- OpenSSH           : 22/Multiport
+- SSH NTLS          : 80
+- SSH TLS           : 443
+- SSH Direct        : 8880,8080,2082
+- NoobzVPN NTLS     : 8080
+- NoobzVPN TLS      : 8443
+- Stunnel4          : 222,777,2096
+- Dropbear          : 69,143,109
+- Dropbear WS       : 443,109
+- OpenVPN SSL       : 110
+- OpenVPN TCP       : 1194
+- OpenVPN UDP       : 2200
+- OHP SSH           : 8686
+- OHP Dropbear      : 8585
+- OpenVPN OHP       : 8787
+- SlowDNS           : 53/Multiport
+- UDP Custom        : 1-2288/Multiport
+- Badvpn            : 7100-7300
+- Proxy Squid       : 3128,8000
+- Nginx             : 81
+
+>>> Service & Port XRAY <<<
+- Xray Vmess TLS    : 443
+- Xray Vmess GRPC   : 443
+- Xray Vmess NTLS   : 80
+- Xray Vless TLS    : 443
+- Xray Vless GRPC   : 443
+- Xray Vless NTLS   : 80
+- Xray Trojan WS    : 443
+- Xray Trojan GRPC  : 443
+- Shadowsocks TLS   : 443
+- Shadowsocks GRPC  : 443
+
+- Support For Kvm Linux
+- Debian 10
+- Ubuntu 20.04
